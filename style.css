@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin-right: 200px; /* Espaço para a barra lateral */
+  background-image: url("Fudo portfólio.png");
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(0, 3, 3); /* cor de fundo caso a imagem não carregue */
+  color: white;
+}
+.dourado {
+  color: gold;
+  font-weight: bold;
+}
+/* Barra de navegação fixa na lateral direita */
+.navbar {
+  background-color: #222;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0; /* AQUI é o segredo: lado direito */
+  padding-top: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.navbar a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #696868;
+}
+.imagem-boasvindas {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+p {
+  font-size: 20px; /* ou 20px, se quiser ainda maior */
+  line-height: 1.6; /* espaçamento entre as linhas, melhora a leitura */
+}
+.lista-projetos li {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-size: 17px;
+}
